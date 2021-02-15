@@ -1,17 +1,23 @@
 /* USE CSS LAYOUTS HERE */
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
 
 .header {
-
+    background-color: aqua;
 }
 
 .main {
-
+    background-color: brown;
 }
 
 .footer-grid {
-
+   background-color: chartreuse;
 }
 
 .footer-flex {
-
+    background-color: chartreuse;
+    flex-shrink: 0;
 }
