@@ -1,23 +1,22 @@
 /* USE CSS LAYOUTS HERE */
-body{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
-
 .header {
     background-color: aqua;
 }
 
 .main {
     background-color: brown;
+    height: 1500px;
 }
 
 .footer-grid {
    background-color: chartreuse;
+   grid-row-start : 2;
+   grid-row-end: 3;
 }
 
 .footer-flex {
     background-color: chartreuse;
-    flex-shrink: 0;
+    bottom: 0px;
+    position: fixed;
+    width: 99.5%;
 }
